@@ -5,15 +5,7 @@ body{
   align-items: center;
   justify-content: center;
   height: 100vh;
-/*  background-image: linear-gradient(-45deg, orange, red, orangered, yellow);
-  background-size: 100%, 100%;
-  animation-name: change;
-  animation-duration: 20s;
-  animation-timing-function: ease-in-out;
-  animation-iteration-count: infinite;
-  min-width: 100vw;
-  max-width: 100vw;
-  overflow-x: hidden;*/
+  background-color: orangered;
 }
 
 @keyframes change{
