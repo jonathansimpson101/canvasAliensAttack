@@ -6,7 +6,7 @@ body{
   justify-content: center;
   height: 100vh;
   background-image: linear-gradient(-45deg, orange, red, orangered, yellow);
-  background-size: 400%, 400%;
+  background-size: 100%, 100%;
   animation-name: change;
   animation-duration: 20s;
   animation-timing-function: ease-in-out;
