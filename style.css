@@ -1,0 +1,44 @@
+@import url('https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap');
+
+body{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  background-image: linear-gradient(-45deg, orange, red, orangered, yellow);
+  background-size: 400%, 400%;
+  animation-name: change;
+  animation-duration: 20s;
+  animation-timing-function: ease-in-out;
+  animation-iteration-count: infinite;
+  min-width: 100vw;
+  max-width: 100vw;
+  overflow-x: hidden;
+}
+
+@keyframes change{
+  0%{
+    background-position: 0 50%
+  }
+  50%{
+    background-position: 100% 50%
+  }
+  100%{
+    background-position: 0 50%
+  }
+}
+
+canvas{
+  background-color: rgba(255, 255, 255, 0.8) !important;
+  box-shadow: 10px 10px 40px rgba(0, 0, 0, 0.6);
+  border-radius: 10px;
+  border: 2px solid black;
+}
+
+p{
+  position: fixed;
+  top: 80%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-family: 'Permanent Marker', cursive;
+}
